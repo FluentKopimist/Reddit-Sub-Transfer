@@ -1,6 +1,8 @@
 import requests
 import json
+import pandas as pd
 import os
+
 
 
 def getLogins():
@@ -43,8 +45,15 @@ def getSubs(api_list):
     headers = {**headers, **{'Authorization':f'bearer {TOKEN}'}}
 
     res = requests.get('https://oauth.reddit.com/subreddits/mine/subscriber', headers=headers)
-    
     for post in res.json()['data']['children']:
+        print(post['data']['title'])
+    
+    df = pd.DataFrame()
+    for post in res.json()['data']['children']:
+        df = df.append({
+                'subreddit': post['data']['subreddit']            
+            }, ignore_index=True)
+    df
         
 
     
