@@ -26,7 +26,7 @@ next your going to open your app
 
 now populate the keys.txt
 
->open the keys.txt file and enter your "client ids" and your "secrets" for each account along with your usernames and passes
+>open the keys.txt file and enter your "client ids", "secrets", usernames and passes in place of the "$$$$"
 
 >when you run it, it will tell you what changes it will make
 
