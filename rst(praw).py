@@ -1,6 +1,6 @@
 import praw
 
-debug = True #set this to False to iterate through old subs and subscribe.
+debug = True #set this to False to iterate through old subs and subscribe on your new account.
 
 # deepcode ignore MissingClose: <please specify a reason of ignoring this>, deepcode ignore MissingClose: <please specify a reason of ignoring this>, deepcode ignore MissingClose: <please specify a reason of ignoring this>, deepcode ignore MissingClose: <please specify a reason of ignoring this>, deepcode ignore MissingClose: <please specify a reason of ignoring this>
 with open('keys.txt', mode='r') as f: #if you haven't already, populate the keys file with your parameters=
