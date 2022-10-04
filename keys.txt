@@ -1,0 +1,16 @@
+#Old ACCT client_ID
+$$$$
+#Old ACCT client_secret
+$$$$
+#Old ACCT username:
+$$$$
+#Old ACCT Pass:
+$$$$
+#New ACCT client_ID
+$$$$
+#New ACCT client_secret
+$$$$
+#New ACCT username:
+$$$$
+#New ACCT Pass:
+$$$$
