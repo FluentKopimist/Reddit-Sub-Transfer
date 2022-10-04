@@ -2,7 +2,7 @@ import praw
 
 debug = True #set this to False to iterate through old subs and subscribe on your new account.
 
-# deepcode ignore MissingClose: "its a with block, it doesn't need a close"
+# deepcode ignore MissingClose: its a with block, it doesn't need a close
 with open('keys.txt', mode='r') as f: #if you haven't already, populate the keys file with your parameters=
     keylist = f.readlines()
 
