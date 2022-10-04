@@ -2,10 +2,9 @@ import praw
 
 debug = True #set this to False to iterate through old subs and subscribe.
 
-f = open('keys.txt', mode='r') 
-#if you haven't already, populate the keys file with your parameters
-keylist = f.readlines()
-f.close()
+# deepcode ignore MissingClose: <please specify a reason of ignoring this>, deepcode ignore MissingClose: <please specify a reason of ignoring this>, deepcode ignore MissingClose: <please specify a reason of ignoring this>, deepcode ignore MissingClose: <please specify a reason of ignoring this>, deepcode ignore MissingClose: <please specify a reason of ignoring this>
+with open('keys.txt', mode='r') as f: #if you haven't already, populate the keys file with your parameters=
+    keylist = f.readlines()
 
 #these print your keys. so you can make sure everything is correct.
 #print("\n" + keylist[1]+"\n"+keylist[3]+"\n"+keylist[5]+"\n"+keylist[7]+"\n")
