@@ -1,6 +1,6 @@
 # Reddit-Sub-Transfer
 
-#Very simple python script to take your old reddit subscriptions and move them to a new account.
+Very simple python script to take your old reddit subscriptions and move them to a new account.
 
 you will to install praw by runnning:
 
