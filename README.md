@@ -15,7 +15,7 @@ Next make an app on each of the accounts you want to communicate with.
 
 ![create app](https://user-images.githubusercontent.com/35983980/193926949-46155510-5e94-44ab-b227-80dd0c31357c.PNG)
 
-next your going to open your app
+next you're going to open your app
 
 >make note of your client id (underneath "personal script") and your "secret"
 
