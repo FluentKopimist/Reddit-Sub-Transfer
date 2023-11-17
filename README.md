@@ -1,7 +1,5 @@
  Reddit-Sub-Transfer
 
-go ahead and try it, but it isn't working for me anymore. its probably because of the api changes at reddit.
-
 Very simple python script to take your old reddit subscriptions and move them to a new account.
 
 you will to install praw by runnning:
